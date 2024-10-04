@@ -1,6 +1,5 @@
 n = int(input('Entrez un entier : '))
-
-if  n == 0:
+if n == 0:
     resultat = 1
 else:
     resultat = 1
