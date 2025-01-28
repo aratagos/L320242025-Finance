@@ -1,7 +1,7 @@
 def f(a, b, c):
-    print(F'a = {a}')
-    print(F'b = {b}')
-    print(F'c = {c}')
+    print(f'a = {a}')
+    print(f'b = {b}')
+    print(f'c = {c}')
 
 d = {'a': 'foo', 'b': 25, 'c': 'qux'}
 f(**d)
