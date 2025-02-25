@@ -8,3 +8,6 @@ def get_price_with_tax(price):
 
 final_prices = [get_price_with_tax(price) for price in prices]
 print(final_prices)
+
+final_prices2 = [price * (1 + TAX_RATE) for price in prices]
+print(final_prices2)

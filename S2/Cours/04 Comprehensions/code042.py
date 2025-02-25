@@ -5,4 +5,9 @@ matrix = [
     [1, 0, 4, 5],
 ]
 
+for row in matrix:
+    for value in row:
+        print(value**2)
+
+
 print({value**2 for row in matrix for value in row})

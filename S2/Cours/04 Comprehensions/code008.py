@@ -10,3 +10,6 @@ def is_consonant(letter):
 
 
 print([char for char in sentence if is_consonant(char)])
+
+vowels = "aeiou"
+print([char for char in sentence if char.isalpha() and char.lower() not in vowels])
