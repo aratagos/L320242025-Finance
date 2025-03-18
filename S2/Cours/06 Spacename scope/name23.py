@@ -10,3 +10,4 @@ def f():
 
 
 f()
+print(x)
